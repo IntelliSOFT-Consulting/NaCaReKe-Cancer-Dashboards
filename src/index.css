@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#left_nav {
+  background: #9e9edf;
+  position: fixed;
+  min-width: 20%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+#links {
+  /* background: #000; */
+}
+
+#left_nav #links ul li {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+li {
+  margin-left: -35px;
+}
+#left_nav #links ul li:hover {
+  background: rgb(255, 255, 255);
+}
+
+#left_nav #links ul a {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-left: 35px;
+}
+#left_nav #links {
+  margin-top: 20px;
+}
+#right_div {
+  background: rgb(236, 236, 236);
+  /* position:fixed; */
+  float: right;
+  margin-top: 100px;
+  width: 80%;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.navbar-brand img {
+  margin-left: 20px;
+}
+#select_filters {
+  /* padding: 10px; */
+  border-radius: 4px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+
+#myNav{
+  background: #9e9edf;
+}

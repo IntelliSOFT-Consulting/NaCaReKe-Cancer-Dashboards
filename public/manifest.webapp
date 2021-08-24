@@ -1,0 +1,22 @@
+{
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "appType": "APP",
+  "name": "Cancer dashboard",
+  "version": "1.0.5",
+  "description": "Cancer dashboard",
+  "icons": {
+    "48": "logo192.png"
+  },
+  "developer": {
+    "name": "Intellisoft Consulting",
+    "email": "info@intelisoft.com",
+    "url": "https://rubedoconst.github.io/"
+  }
+
+}
